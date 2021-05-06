@@ -1,0 +1,35 @@
+{
+    "name": "bahramali/myrightel-php",
+    "description": "MyRightel-PHP is a PHP library for interacting with MyRightel",
+    "keywords": [
+        "MyRightel-PHP",
+        "MyRightel",
+        "Rightel",
+        "manage MyRightel",
+        "bot",
+        "php",
+        "psr-4"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/ErfanBahramali/MyRightel-PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erfan Bahramali",
+            "email": "Erfan@bahramali.ir",
+            "homepage": "https://bahramali.ir",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-curl": "*",
+        "ext-mbstring": "*",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyRightelPHP\\": "src/"
+        }
+    }
+}
